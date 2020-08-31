@@ -20,5 +20,6 @@ from products import views
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('first/', views.first),
-    path('second/', views.second)
+    path('second/', views.second),
+    path('registration/', views.registration)
 ]
